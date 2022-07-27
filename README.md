@@ -11,6 +11,10 @@ A base de dados utilizada estava dividida em 2 locais distintos. As informaçõe
 
 Após carregar os dados para o Power BI eu realizei a modelagem e transformação dos mesmos conforme a necessidade dos requisitos que eu teria que informar no Dashboard.
 
+Criei a Dim_Calendário:
+
+![Calendario](https://github.com/MatheusFCBarros/Dashboard_Vendas/blob/main/Calendario.png)
+
 Por fim o modelo ficou assim:
 
 ![Modelo](https://github.com/MatheusFCBarros/Dashboard_Vendas/blob/main/Modelo.png)
@@ -45,9 +49,13 @@ Quantidade produtos vendidos =
 
 IF(
     SUM(FACT_VENDAS[Quantidade])
+    
     = BLANK()
+    
     ,0
+    
     ,SUM(FACT_VENDAS[Quantidade])
+    
 )
 
 ## Personalização do layout do relatório

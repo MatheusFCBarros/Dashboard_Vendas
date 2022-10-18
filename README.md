@@ -1,6 +1,8 @@
 # Dashboard_Vendas
 Dashboard criado a partir de dados de vendas de produtos 
 
+![Dashboard](https://github.com/MatheusFCBarros/Dashboard_Vendas/blob/main/Dashboard.png)
+
 Nesse projeto eu realizei etapas como:
 
 ## Conexão com fontes de dados
